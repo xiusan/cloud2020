@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * @className: PayMentApplication
  * @description:
- * @author: liusCoding
+ * @author: xiaojinlu
  * @create: 2020-06-03 23:06
  */
 @SpringBootApplication

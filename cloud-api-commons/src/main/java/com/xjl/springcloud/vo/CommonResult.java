@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 /**
  * @className: CommonResult
  * @description:
- * @author: liusCoding
+ * @author: xiaojinlu
  * @create: 2020-06-04 00:02
  */
 

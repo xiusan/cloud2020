@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author liuscoding
+ * @author xiaojinlu
  */
 @Mapper
 public interface PaymentDao {
