@@ -16,8 +16,8 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan({"com.xjl.springcloud"})
 @EnableEurekaClient
 @EnableDiscoveryClient
-public class PaymentApplication8001 {
+public class PaymentApplication8002 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication8001.class,args);
+        SpringApplication.run(PaymentApplication8002.class,args);
     }
 }
