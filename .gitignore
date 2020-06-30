@@ -1,0 +1,9 @@
+gwtrip-hotel-account.iml
+cloud-api-commons/target
+gwtrip-hotel-account-dao/gwtrip-hotel-account-dao.iml
+gwtrip-hotel-account-service/gwtrip-hotel-account-service.iml
+gwtrip-hotel-account-service-impl/gwtrip-hotel-account-service-impl.iml
+gwtrip-hotel-account-api-web/target
+gwtrip-hotel-account-service-impl/target
+gwtrip-hotel-account-service/target
+gwtrip-hotel-account-dao/target
