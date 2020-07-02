@@ -20,7 +20,6 @@ import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
  */
 
 @RestController
-@RequestMapping("/payment")
 @Slf4j
 public class PaymentController {
     @Autowired
@@ -34,7 +33,7 @@ public class PaymentController {
         this.discoveryClient = discoveryClient;
     }*/
 
-    @PostMapping(value = "/create")
+    @PostMapping(value = "/payment/create")
     public CommonResult create(@RequestBody Payment payment) {
         int result = paymentService.create(payment);
         log.info("*****插入结果："+result);
@@ -81,7 +80,7 @@ public class PaymentController {
         return serverPort;
     }
 
-    @GetMapping(value = "/lb")
+    @GetMapping(value = "/payment/lb")
     public String getPaymentLB() {
         return serverPort;
     }
