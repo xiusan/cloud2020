@@ -62,12 +62,10 @@ public class PaymentController {
     public Object discovery(){
         List<String> services = discoveryClient.getServices();
         services.forEach(service ->log.info("****element***:{}", service));
-
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
         instances.forEach(
                 instance -> log.info(instance.getServiceId()+"\t"+instance.getHost()+"\t"+instance.getPort()+"\t"+instance.getUri())
         );
-
         return this.discoveryClient;
     }*/
 
