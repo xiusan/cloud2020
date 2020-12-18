@@ -6,3 +6,4 @@ cloud-provider-payment-8001
 cloud-provider-payment-8002
 cloud-provider-payment-8004    zookeeper  注册使用
 ## 初始化eureka
+## test
