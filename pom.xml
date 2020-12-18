@@ -9,10 +9,13 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>cloud-consumer-order80</module>
-        <module>cloud-eureka-server7001</module>
-        <module>cloud-provider-payment-8001</module>
-        <module>cloud-api-commons</module>
+        <module>rymap-community-commons</module>
+        <module>rymap-community-api</module>
+        <module>rymap-community-eureka</module>
+        <module>rymap-community-service</module>
+        <module>rymap-community-supplier-bytedance</module>
+        <module>rymap-community-supplier-tianbo</module>
+        <module>rymap-community-supplier-ximo</module>
     </modules>
     <!-- 统一管理jar包版本 -->
     <properties>

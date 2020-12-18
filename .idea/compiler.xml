@@ -10,6 +10,12 @@
         <module name="cloud-consumer-order80" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-provider-payment-8001" />
+        <module name="rymap-community-api" />
+        <module name="rymap-community-eureka" />
+        <module name="rymap-community-service" />
+        <module name="rymap-community-supplier-bytedance" />
+        <module name="rymap-community-supplier-tianbo" />
+        <module name="rymap-community-supplier-ximo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +30,13 @@
       <module name="cloud-provider-payment-8001" target="1.8" />
       <module name="cloud-provider-payment-8002" target="1.8" />
       <module name="cloud2020" target="1.8" />
+      <module name="rymap-community" target="1.8" />
+      <module name="rymap-community-api" target="1.8" />
+      <module name="rymap-community-eureka" target="1.8" />
+      <module name="rymap-community-service" target="1.8" />
+      <module name="rymap-community-supplier-bytedance" target="11" />
+      <module name="rymap-community-supplier-tianbo" target="11" />
+      <module name="rymap-community-supplier-ximo" target="11" />
       <module name="springcloud-2020" target="1.8" />
     </bytecodeTargetLevel>
   </component>
